@@ -109,12 +109,12 @@ void Task4()
         i++;
     }
 
-    int max = MaxArrayNum(array);
-    SecondMaxArray(array, max);
+    int max = FirstMaxArrayNum(array);
+    SecondMaxArrayNum(array, max);
 
 }
 
-int MaxArrayNum(int[] collection)
+int FirstMaxArrayNum(int[] collection)
 {
     int i = 0;
     int max = collection[0];
@@ -136,7 +136,7 @@ int MaxArrayNum(int[] collection)
     return max;
 }
 
-void SecondMaxArray(int[] array, int FirstMaxValue)
+void SecondMaxArrayNum(int[] array, int FirstMaxValue)
 {
     int i = 0;
     int max = array[0];
