@@ -101,7 +101,7 @@ void Task4()
 {
     int[] array = new int[10];
     int i = 0;
-    Console.WriteLine("Заполните числовую последовательность из 10 чисел");
+    Console.WriteLine("Заполните числовую последовательность из 10 элементов");
     while (i < array.Length)
     {
         Console.Write("Число " + Convert.ToString(i + 1) + (": "));
