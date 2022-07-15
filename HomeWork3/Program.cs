@@ -155,5 +155,6 @@ void SecondMaxArray(int[] array, int FirstMaxValue)
         else
             break;
     }
-    Console.WriteLine(max);
+    if (max == FirstMaxValue) Console.WriteLine("Второго максимального числа в последовательности до 0 нету");
+    else Console.WriteLine(max);
 }
