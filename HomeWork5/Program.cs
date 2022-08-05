@@ -83,6 +83,6 @@ void Task3()
         if (array[i] > max) max = array[i];
         if (array[i] < min) min = array[i];
     }
-    Console.WriteLine("[" + string.Join("; ", array) + "]");
+    Console.WriteLine("[" + string.Join(";  ", array) + "]");
     Console.WriteLine("Разница между максимальным и минимальным элементов массива " + Convert.ToString(max - min));
 }
