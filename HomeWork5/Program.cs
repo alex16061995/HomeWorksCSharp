@@ -67,16 +67,16 @@ void Task3()
     Console.Write("Введите размерность массива: ");
     int n = Convert.ToInt32(Console.ReadLine());
 
-    int[] array = new int[n];
+    double[] array = new double[n];
 
     for (int i = 0; i < array.Length; i++)
     {
         Console.Write("Число "+ Convert.ToString(i+1) + " ");
-        array[i] = Convert.ToInt32(Console.ReadLine());
+        array[i] = Convert.ToDouble(Console.ReadLine());
     }
 
-    int max = array[0];
-    int min = array[0];
+    double max = array[0];
+    double min = array[0];
 
      for (int i = 0; i < array.Length; i++)
     {
