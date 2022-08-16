@@ -73,7 +73,7 @@ void Task1()
     Console.WriteLine("Исходная матрица: ");
     FillArray(array);
 
-    Console.WriteLine("Измененная матрица: ");
+    Console.WriteLine("Отсортированная по строкам матрица: ");
 
     for (int i = 0; i < array.GetLength(0); i++)
     {
@@ -101,7 +101,7 @@ void SortRowArray(int[] rowArray)
         }
     }
 
-    Console.WriteLine("[" + string.Join(", ", rowArray) + "]");
+    Console.WriteLine(string.Join("\t", rowArray));
 
 }
 
