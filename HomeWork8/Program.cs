@@ -210,7 +210,7 @@ void Task5()
 {
     int[,] array = new int[4, 4];
     int countPrint = 4;
-    int counterArray = 0;
+    int counterArray = 1;
     int row = 0;
     int col = 0;
     int directionRow = 0;
