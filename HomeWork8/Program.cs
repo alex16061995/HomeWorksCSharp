@@ -73,7 +73,7 @@ void Task1()
     Console.WriteLine("Исходная матрица: ");
     FillArray(array);
 
-    Console.WriteLine("Отсортированная по строкам матрица: ");
+    Console.WriteLine("Измененная матрица: ");
 
     for (int i = 0; i < array.GetLength(0); i++)
     {
